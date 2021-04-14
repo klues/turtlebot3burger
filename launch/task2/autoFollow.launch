@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlebot3burger" type="autoFollowNode.py" name="autoFollowNode" output="screen"/>
+  <!-- TODO insert additional needed node(s) -->
+</launch>

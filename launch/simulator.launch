@@ -1,0 +1,8 @@
+<launch>
+  <arg name="world" default="world"/>
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_$(arg world).launch"/>
+
+  <node pkg="turtlebot3burger" type="simulationFeatureNode.py" name="simulationFeatureNode" output="screen"/>
+  <node pkg="turtlebot3burger" type="soundNode.py" name="soundNode" output="screen"/>
+</launch>

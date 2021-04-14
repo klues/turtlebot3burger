@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="turtlebot3burger" type="guardNode.py" name="guardNode" output="screen"/>
+  <!-- TODO insert additional needed node(s) -->
+  <!-- TODO start turtlebot3_teleop_key node and remap "cmd_vel" to "cmd_vel_raw" -->
+</launch>
