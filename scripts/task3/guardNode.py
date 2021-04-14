@@ -12,7 +12,8 @@ import rospy
 
 
 def guardNode():
-    # TODO
+    print("starting guardNode...")
+	# TODO
 
 
 if __name__ == '__main__':

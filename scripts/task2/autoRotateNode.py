@@ -8,8 +8,11 @@ Rotates the robot in direction of the closest obstacle.
 
 import rospy
 
+
 def autoRotateNode():
-    # TODO
+    print("starting autoRotateNode...")
+	# TODO
+	
 
 if __name__ == '__main__':
     try:

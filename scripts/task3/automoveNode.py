@@ -10,7 +10,8 @@ import rospy
 
 
 def automoveNode():
-    # TODO
+    print("starting automoveNode...")
+	# TODO
 	
 
 if __name__ == '__main__':

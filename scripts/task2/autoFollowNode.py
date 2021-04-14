@@ -9,8 +9,10 @@ Follows/eludes the obstacle by maintaining a constant distance.
 
 import rospy
 
+
 def autoFollowNode():
-    # TODO
+    print("starting autoFollowNode...")
+	# TODO
     
 
 if __name__ == '__main__':
