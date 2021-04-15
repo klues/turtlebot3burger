@@ -9,3 +9,4 @@ fi
 
 rm ~/Aufgabe1*.zip
 zip -r ~/Aufgabe1_$1.zip $BASEDIR/task1
+echo "Datei ~/Aufgabe1_$1.zip erfolgreich erstellt!"
