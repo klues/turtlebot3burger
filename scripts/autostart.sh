@@ -18,6 +18,7 @@ while [ ! "$OWN_IP" ]; do
 done
 
 pkill roslaunch
+sleep 5
 
 export ROS_HOSTNAME=$OWN_IP
 echo $ROS_HOSTNAME
